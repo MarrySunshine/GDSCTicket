@@ -1,0 +1,20 @@
+.seat {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem; }
+  .seat img {
+    width: 1.6rem; }
+  .seat span {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    bottom: 1.2rem; }
+  .seat.chosen {
+    color: white; }
+  .seat.invisible {
+    visibility: hidden; }
+
+/*# sourceMappingURL=style.css.map */

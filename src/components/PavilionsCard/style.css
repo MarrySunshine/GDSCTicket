@@ -1,0 +1,11 @@
+.card {
+  margin: 8px; }
+  .card .table th, .card .table td {
+    cursor: pointer; }
+
+.date-picker {
+  margin-left: 1rem !important; }
+  .date-picker input {
+    cursor: pointer !important; }
+
+/*# sourceMappingURL=style.css.map */

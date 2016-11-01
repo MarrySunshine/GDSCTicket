@@ -1,0 +1,18 @@
+#venue-container {
+  width: 100%;
+  height: 100%; }
+  #venue-container .films {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%; }
+  #venue-container .date-picker {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 0.5rem; }
+  #venue-container .season-table {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2.5rem; }
+
+/*# sourceMappingURL=venues.css.map */

@@ -1,0 +1,47 @@
+.pavilions-container {
+  width: 100%;
+  height: 100%; }
+  .pavilions-container .date-picker {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 2%; }
+  .pavilions-container .content .item {
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+    margin: 4rem;
+    display: inline-block; }
+    .pavilions-container .content .item img {
+      width: 100%; }
+    .pavilions-container .content .item .name {
+      color: #666;
+      font-size: 0.8rem; }
+  .pavilions-container .ticket-table {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%; }
+    .pavilions-container .ticket-table thead tr {
+      height: 2.8rem; }
+      .pavilions-container .ticket-table thead tr th {
+        font-weight: 300;
+        color: #666;
+        font-size: 0.8rem; }
+    .pavilions-container .ticket-table tbody tr {
+      background: white;
+      height: 2.8rem;
+      font-size: 0.8rem;
+      cursor: pointer;
+      color: #666; }
+      .pavilions-container .ticket-table tbody tr:hover, .pavilions-container .ticket-table tbody tr.active {
+        background: #66cccc;
+        color: white;
+        transform: scale(1.02);
+        transition: transform 0.3s; }
+      .pavilions-container .ticket-table tbody tr td {
+        font-weight: lighter;
+        text-align: center; }
+        .pavilions-container .ticket-table tbody tr td:first-of-type, .pavilions-container .ticket-table tbody tr td:last-of-type {
+          font-weight: bold; }
+
+/*# sourceMappingURL=pavilions.css.map */

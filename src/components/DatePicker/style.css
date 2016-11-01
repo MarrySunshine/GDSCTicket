@@ -1,0 +1,23 @@
+.date-picker {
+  box-shadow: 0 0 5px #999;
+  border-radius: 6px; }
+  .date-picker .date-picker-item {
+    background: white;
+    display: inline-block;
+    width: 4rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    text-align: center;
+    color: #666;
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-weight: lighter; }
+    .date-picker .date-picker-item:first-of-type {
+      border-radius: 6px 0 0 6px; }
+    .date-picker .date-picker-item:last-of-type {
+      border-radius: 0 6px 6px 0; }
+    .date-picker .date-picker-item.active {
+      background: #66cccc;
+      color: white; }
+
+/*# sourceMappingURL=style.css.map */

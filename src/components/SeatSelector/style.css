@@ -1,0 +1,35 @@
+.seat-selector .screen {
+  width: 10%;
+  margin-left: 45%;
+  position: relative;
+  text-align: center;
+  vertical-align: bottom;
+  transform: scale(0.6); }
+  .seat-selector .screen img {
+    width: 106%; }
+  .seat-selector .screen span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 25%;
+    left: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #666; }
+.seat-selector .seats .row:before {
+  content: attr(data-row-number);
+  display: inline-block;
+  height: 2rem;
+  line-height: 2rem; }
+
+.seat-selector-sample {
+  text-align: center;
+  margin-bottom: 1rem; }
+  .seat-selector-sample span {
+    margin-left: 5%;
+    margin-right: 5%; }
+    .seat-selector-sample span img {
+      width: 1rem;
+      vertical-align: bottom; }
+
+/*# sourceMappingURL=style.css.map */
